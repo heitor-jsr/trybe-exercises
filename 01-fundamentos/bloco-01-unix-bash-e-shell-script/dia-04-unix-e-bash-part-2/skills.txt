@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Zoom
+Slack
+Git
+Github
+Python
