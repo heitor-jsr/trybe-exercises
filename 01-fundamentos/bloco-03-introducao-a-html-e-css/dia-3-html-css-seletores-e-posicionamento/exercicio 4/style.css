@@ -1,0 +1,62 @@
+li {
+    background-color: yellow;
+    font-size: 20px;
+}
+
+/* .list:has(li):has(+em){
+    background-color: brown;
+} */
+/* 
+.list:has(li):has(em) li{
+    font-weight: bold;
+} --> encontrei essa forma de identificar o conteúdo e deixá-lo em itálico.*/
+
+.list li em{
+    font-weight: bold;
+}
+
+ol > li:nth-child(2), ol > li:nth-child(4){
+    background-color: green;
+}
+
+ol.ordered > li:nth-child(1), li:nth-child(3), li:nth-child(5){
+    text-transform: capitalize;
+}
+
+h1, h2, h3{
+    color: red;
+}
+
+h1.italic{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+ul.prog li:nth-child(1){
+    color: blue;
+}
+
+ul.prog li.java:nth-child(2), ul.prog li.java:nth-child(3){
+    color: pink;
+}
+
+.stack:hover{
+    font-weight: bold;
+    background-color: orange;
+}
+.w3:hover{
+    font-weight: bold;
+    background-color: green;
+}
+.mdn:hover{
+    font-weight: bold;
+    background-color: black;
+}
+.dev:hover{
+    font-weight: bold;
+    background-color: yellow;
+}
+.trybe:hover{
+    font-weight: bold;
+    background-color: green;
+}
