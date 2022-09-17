@@ -1,0 +1,40 @@
+body{
+    font-size: 16px;
+    text-decoration-style: solid;
+    font-style: oblique;
+}
+
+p {
+    font-weight: 600; 
+    font-size: 3em; 
+    text-align: center;
+}
+
+.format{
+    height: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.color{
+    background-color: green;
+}
+
+.font-header{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#yellow{
+    color: yellow;
+}
+
+#red{
+    color: red;
+    text-decoration: underline;
+}
+
+#brown{
+    color: brown;
+}
