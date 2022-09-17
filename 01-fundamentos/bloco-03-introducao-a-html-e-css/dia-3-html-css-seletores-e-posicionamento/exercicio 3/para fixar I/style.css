@@ -1,0 +1,15 @@
+.align{
+    text-align: center;
+}
+
+li:hover{
+    background-color: darkslategrey;
+}
+
+li:active{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+}

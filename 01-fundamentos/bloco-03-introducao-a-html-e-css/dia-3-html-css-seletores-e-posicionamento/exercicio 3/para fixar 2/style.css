@@ -1,0 +1,32 @@
+h3{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+div:hover{
+    border: 5px solid black;
+}
+
+#div1{
+    color: brown;
+    font-style: italic;
+}
+
+#div2{
+    color: red;
+}
+
+#div3{
+    color: firebrick;
+    font-size: 2em;
+    font-style: italic;
+}
+
+#div4{
+    color: darkred;
+}
+
+#div5{
+    color: lightcoral;
+    font-style: italic;
+}
+
