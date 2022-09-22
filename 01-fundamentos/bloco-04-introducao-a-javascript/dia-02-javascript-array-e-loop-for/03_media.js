@@ -7,6 +7,6 @@ let media = 0;
 for (index = 0; index < numbers.length; index += 1) {
     sum += numbers[index];
     media = sum / numbers.length;
-}
+};
 
-console.log(`média = ${sum} / ${numbers.length}, que é ${media}.`)
+console.log(`média = ${sum} / ${numbers.length}, que é ${media}.`);
