@@ -33,6 +33,6 @@ if (salarioBruto <= 1903.98) {
   deducao = 869.36;
 }
 
-let salarioLiquido = salarioBruto - (aliquotaInss + (aliquotaIrrf - deducao))
+let salarioLiquido = salarioBruto - (aliquotaInss + (aliquotaIrrf - deducao));
 
-console.log(`O salário líquido é igual a ${salarioLiquido}. Os encargoes que recaem sobre ele são: INSS R$${aliquotaInss}, IRRF R$${aliquotaIrrf} e dedução IR R$${deducao}`)
+console.log(`O salário líquido é igual a ${salarioLiquido}. Os encargoes que recaem sobre ele são: INSS R$${aliquotaInss}, IRRF R$${aliquotaIrrf} e dedução IR R$${deducao}`);
