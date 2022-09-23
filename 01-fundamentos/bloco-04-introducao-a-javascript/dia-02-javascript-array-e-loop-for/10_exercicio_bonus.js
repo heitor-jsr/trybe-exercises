@@ -17,8 +17,8 @@ for (let index = 1; index < numbers.length; index += 1) {
         let position = numbers[index];
         numbers[index] = numbers[secondIndex];
         numbers[secondIndex] = position;
-      }
-    }
+      };
+    };
   };
 
   console.log(numbers);
