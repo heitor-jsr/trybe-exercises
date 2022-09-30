@@ -1,0 +1,27 @@
+<main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+  <script>
+    const pai = document.getElementById('pai');
+    const filho1 = pai.firstElementChild;
+    pai.removeChild(filho1);
+    const lastSonOfDad = document.getElementById('quartoEUltimoFilho');
+    pai.removeChild(lastSonOfDad);
+    const thirdSonOfDad = document.getElementById('terceiroFilho');
+    pai.removeChild(thirdSonOfDad)
+
+    const elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta');
+    const lastSon = elementoOndeVoceEsta.lastElementChild;
+    elementoOndeVoceEsta.removeChild(lastSon);
+  </script>
+</body>
+</html>
