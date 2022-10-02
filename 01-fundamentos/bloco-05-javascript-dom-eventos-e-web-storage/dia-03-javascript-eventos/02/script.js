@@ -100,56 +100,87 @@ function sextou(fridays){
 
 sextou(fridayArray);
 
+function mouseover(){
+  const days = document.getElementById('days');
+  days.addEventListener('mouseover', function(event){
+    event.target.style.fontSize = '30px';
+    event.target.style.fontWeight = '600'; 
+    });
+};
 
+function mouseout(){
+  const days = document.getElementById('days');
+  days.addEventListener('mouseout', function(event){
+    event.target.style.fontSize = '20px';
+    event.target.style.fontWeight = '200'; 
+    });
+};
 
+mouseover()
+mouseout()
 
+function changeText() {
+    let getInputField = document.querySelector('#task-input');
+    let addInputButton = document.querySelector('#btn-add');
+    let getTaskList = document.querySelector('.task-list');
 
+    addInputButton.addEventListener('click', function() {
+      if (getInputField.value.length > 0) {
+        let newLi = document.createElement('li');
+        newLi.innerText = getInputField.value;
+        getTaskList.appendChild(newLi);
+        getInputField.value = '';
+      } else {
+        alert('Error: Digite ao menos 1 caractere.');
+      }
+    });
+    getInputField.addEventListener('keyup', function(event) {
+      if (event.key === 'Enter' && getInputField.value.length > 0) {
+        let newLi = document.createElement('li');
+        newLi.innerText = getInputField.value;
+        getTaskList.appendChild(newLi);
+        getInputField.value = '';
+      }
+    });
+  }  
+  changeText();
 
+  function newDiv(color){
+    let divDad = document.querySelector('.my-tasks');
+    let newDiv = document.createElement('div');
+    newDiv.className = 'task';
+    newDiv.style.backgroundColor = color;
+    divDad.appendChild(newDiv);
+  }
 
+  newDiv('green');
 
+  function setTaskClass() {
+    let selectedTask = document.getElementsByClassName('task selected');
+    let myTasks = document.querySelector('.task');
+    myTasks.addEventListener('click', function(event) {
+      if (selectedTask.length === 0) {
+        event.target.className = 'task selected';
+      } else {
+        event.target.className = 'task';
+      }
+    });
+  };
+  setTaskClass();
 
-
-  // function changeText() {
-  //   let getInputField = document.querySelector('#task-input');
-  //   let addInputButton = document.querySelector('#btn-add');
-  //   let getTaskList = document.querySelector('.task-list');
-
-  //   addInputButton.addEventListener('click', function() {
-
-  //     if (getInputField.value.length > 0) {
-  
-  //       let newLi = document.createElement('li');
-  
-  //       newLi.innerText = getInputField.value;
-  
-  
-  //       getTaskList.appendChild(newLi);
-  
-  //       getInputField.value = '';
-  
-  //     } else {
-  
-  //       alert('Error: Digite ao menos 1 caractere.');
-  
-  //     }
-  
-  //   });
-  
-  //   getInputField.addEventListener('keyup', function(event) {
-  
-  //     if (event.key === 'Enter' && getInputField.value.length > 0) {
-  
-  //       let newLi = document.createElement('li');
-  
-  //       newLi.innerText = getInputField.value;
-  
-  
-  //       getTaskList.appendChild(newLi);
-  
-  //       getInputField.value = '';
-  
-  //     }
-  
-  //   });
-  // }  
-  // changeText()  
+  function setDayColor() {
+    let selectedTask = document.getElementsByClassName('task selected');
+    let days = document.querySelector('#days');
+    let taskDiv = document.querySelector('.task');
+    let taskColor = taskDiv.style.backgroundColor;
+    days.addEventListener('click', function(event){
+      let eventTargetColor = event.target.style.color;
+      if (selectedTask.length > 0 && eventTargetColor !== taskColor) {
+        let color = selectedTask[0].style.backgroundColor; 
+        event.target.style.color = color; 
+      } else if (eventTargetColor === taskColor) {
+        event.target.style.color = 'rgb(119,119,119)';  
+      }
+    });
+  }
+  setDayColor()
