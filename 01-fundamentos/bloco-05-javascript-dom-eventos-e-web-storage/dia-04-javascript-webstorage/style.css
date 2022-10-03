@@ -1,0 +1,27 @@
+body {
+    margin: 10px;
+}
+
+.preferences {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid green;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+}
+
+.paragraph {
+    justify-content: center;
+}
