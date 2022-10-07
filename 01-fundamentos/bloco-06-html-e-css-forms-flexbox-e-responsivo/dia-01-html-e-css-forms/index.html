@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário TrybeTrip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>Concorra a uma viagemcom a TrybeTrip!</header>
+  <section id="forms">
+    <form method="GET">
+      <fieldset>
+        <legend>Preencha as informações abaixo para concorrer.</legend>
+        <label for="user" class="label-user">Nome:</label>
+        <input type="name" name="nome" id="user" min="10" max="50" required>
+        <label for="user-email" class="label-user">Email:</label>
+        <input type="email" name="email" id="user-email" min="10" max="50" required>
+        <label for="city">Cidade</label>
+        <input type="radio" name="options" id="city" class="choices" required>
+        <label for="beach">Praia</label>
+        <input type="radio" name="options" id="beach" class="choices" required>
+        <label for="fields">Campo</label>
+        <input type="radio" name="options" id="fields" class="choices" required>
+        <label for="mountains">Montanha</label>
+        <input type="radio" name="options" id="mountains" class="choices" required>
+        <textarea id="text-area" maxlength="500" cols="50" rows="10" wrap="soft" required>Porque deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</textarea>
+        <label for="data-viagem" class="data-viagem">Data:</label>
+        <input class="data-viagem" id="data" type="date">
+        <div id="corcordas1">
+          <label for="concorda">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+          <input id="concorda" type="checkbox">
+        </div>
+        <div id="corcordas2">
+          <label for="concorda1">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros. </label>
+          <input id="concorda1" type="checkbox" required>
+        </div>
+        <div id="botoes">
+          <button class="botao" id="botao-envia" type="submit" value="Enviar o formulário">Enviar formulário</button>
+          <button class="botao" id="botao-reset" type="submit" value="Apagar as informações">Apagar as informações</button>
+        </div>
+      </fieldset>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
