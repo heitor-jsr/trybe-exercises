@@ -33,7 +33,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 4.4 - JavaScript - Objetos e funções
 - [x] 4.5 - Projeto - Playground Functions
 
-##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/heitor-jsr/trybe-exercises)
+##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/heitor-jsr/trybe-exercises/tree/main/01-fundamentos/bloco-05-javascript-dom-eventos-e-web-storage)
 - [x] 5.1 - JavaScript - DOM e seletores
 - [x] 5.2 - JavaScript - Trabalhando com elementos
 - [x] 5.3 - JavaScript - Eventos
@@ -45,7 +45,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 5.7 - (Bônus) Projeto - Adivinhe a Cor
 - [ ] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
-##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/heitor-jsr/trybe-exercises)
+##### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/heitor-jsr/trybe-exercises/tree/main/01-fundamentos/bloco-06-html-e-css-forms-flexbox-e-responsivo)
 - [x] 6.1 - HTML & CSS - Forms
 - [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
 - [x] 6.3 - Introdução - CSS Flexbox
@@ -54,13 +54,13 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 6.5 - CSS Responsivo - Mobile First
 - [x] 6.6 - Projeto - Página inicial do Facebook
 
-##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/heitor-jsr/trybe-exercises)
+##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/heitor-jsr/trybe-exercises/tree/main/01-fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios)
 - [x] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 7.2 - JavaScript ES6 - Objects
 - [x] 7.3 - Testes unitários em JavaScript
 - [x] 7.4 - Projeto - JavaScript Testes Unitários
 
-##### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/heitor-jsr/trybe-exercises)
+##### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/heitor-jsr/trybe-exercises/tree/main/01-fundamentos/bloco-08-high-order-functions-do-javascript-es6)
 - [x] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [ ] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
 - [ ] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
