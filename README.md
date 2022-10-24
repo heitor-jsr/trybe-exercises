@@ -25,7 +25,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 3.4 - HTML Semântico
 - [x] 3.5 - Projeto - Lessons Learned
 
-##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/heitor-jsr/trybe-exercises)
+##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/heitor-jsr/trybe-exercises/tree/main/01-fundamentos/bloco-04-introducao-a-javascript)
 - [x] 4.1 - Introdução - JavaScript
 - [x] 4.1 - JavaScript - Primeiros passos
 - [x] 4.2 - JavaScript - Array e loop For
