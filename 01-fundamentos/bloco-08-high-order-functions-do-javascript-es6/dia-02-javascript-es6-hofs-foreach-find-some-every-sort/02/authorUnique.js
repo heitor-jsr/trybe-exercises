@@ -1,4 +1,4 @@
-const books = require('./index')
+import books from './index.js';
 
 function authorUnique() {
   return books.every((book) =>

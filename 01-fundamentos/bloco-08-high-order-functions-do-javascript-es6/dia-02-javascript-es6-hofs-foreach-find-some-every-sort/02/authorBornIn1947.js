@@ -1,4 +1,4 @@
-const books = require('./index');
+import books from './index.js';
 
 const authorBornIn1947 = books.find((element) => element.author.birthYear === 1947)
 // OUTRAS DUAS FORMAS DE RESOLVER 
