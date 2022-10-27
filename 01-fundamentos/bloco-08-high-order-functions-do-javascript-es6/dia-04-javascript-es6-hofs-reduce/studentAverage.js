@@ -8,13 +8,4 @@ function studentAverage(students, grades) {
       average: (grades[index].reduce((acc, curr) => acc + curr, 0) / grades[index].length),
     }
   ))
-  
 }
-
-const expected = [
-  { name: 'Pedro Henrique', average: 7.8 },
-  { name: 'Miguel', average: 9.2 },
-  { name: 'Maria Clara', average: 8.8 },
-];
-
-console.log(studentAverage(students, grades))
