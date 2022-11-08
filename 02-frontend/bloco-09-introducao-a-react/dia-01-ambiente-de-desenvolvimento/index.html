@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validator</title>
+</head>
+<body>
+  <main>
+    <form>
+      <label for="text-validation"></label>
+      <input id="text-validation" type="text" placeholder="Insita o texto a ser validado aqui">
+      <label for="validator"></label>
+      <select id="validator">
+        <option value="isEmail">Email</option>
+        <option value="isIn">User already exists</option>
+        <option value="isLength">Check length</option>
+        <option value="isLowercase">Lowercase</option>
+        <option value="isHexadecimal">Hexadecimal</option>
+      </select>
+      <button id="btn">Validar</button>
+    </form>
+    <p id="answer">Digite o valor, escolha a opção e clique em validar</p>
+  </main>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
